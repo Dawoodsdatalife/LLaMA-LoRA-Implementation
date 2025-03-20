@@ -1,0 +1,6 @@
+torch
+transformers
+accelerate
+numpy
+peft
+jupyter notebook
