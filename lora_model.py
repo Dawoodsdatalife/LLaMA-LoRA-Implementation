@@ -1,4 +1,3 @@
-```python
 import torch
 import torch.nn as nn
 from transformers import LlamaModel
@@ -27,4 +26,3 @@ class LLaMAWithLoRA(nn.Module):
             hidden_states = lora_layer(hidden_states)
 
         return hidden_states
-```
