@@ -13,6 +13,7 @@ This repository provides a professional and efficient implementation of **Low-Ra
 ├── LLaMA-LoRA-Implementation
 │   ├── README.md
 │   ├── lora_model.py    # Implementation of LoRA Layers and Model Integration
+│   ├── training.ipynb   # Interactive Training Notebook
 │   ├── train.py         # Example training script
 │   ├── requirements.txt # Dependencies
 ```
