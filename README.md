@@ -46,7 +46,7 @@ model_name = "llama-base"
 tokenizer = LlamaTokenizer.from_pretrained(model_name)
 model = LLaMAWithLoRA(model_name)
 
-text = "Hello, I am Dawood M D. Wecome to by GitHub"
+text = "Hello,I am Dawood M D. How are you?"
 inputs = tokenizer(text, return_tensors="pt")
 outputs = model(**inputs)
 print(outputs)
